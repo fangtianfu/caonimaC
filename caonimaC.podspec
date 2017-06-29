@@ -11,7 +11,7 @@ DESC
 s.homepage     = "https://github.com/fangtianfu/caonimaC"
 # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
-s.license      = "MIT"
+s.license          = { :type => "MIT", :file => "LICENSE" }
 
 s.author       = { "方天福" => "fangtianfu@adsmart.com.cn" }
 
