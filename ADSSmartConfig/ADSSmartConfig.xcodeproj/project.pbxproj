@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C8819A011F04CFA10011BC39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C8819A001F04CFA10011BC39 /* main.m */; };
+		C8819A041F04CFA10011BC39 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C8819A031F04CFA10011BC39 /* AppDelegate.m */; };
+		C8819A071F04CFA10011BC39 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8819A061F04CFA10011BC39 /* ViewController.m */; };
+		C8819A0A1F04CFA10011BC39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8819A081F04CFA10011BC39 /* Main.storyboard */; };
+		C8819A0C1F04CFA10011BC39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8819A0B1F04CFA10011BC39 /* Assets.xcassets */; };
+		C8819A0F1F04CFA10011BC39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8819A0D1F04CFA10011BC39 /* LaunchScreen.storyboard */; };
+		C8819A421F04CFBD0011BC39 /* ESPDataCode.m in Sources */ = {isa = PBXBuildFile; fileRef = C8819A191F04CFBD0011BC39 /* ESPDataCode.m */; };
+		C8819A431F04CFBD0011BC39 /* ESPDatumCode.m in Sources */ = {isa = PBXBuildFile; fileRef = C8819A1B1F04CFBD0011BC39 /* ESPDatumCode.m */; };
+		C8819A441F04CFBD0011BC39 /* ESPGuideCode.m in Sources */ = {isa = PBXBuildFile; fileRef = C8819A1D1F04CFBD0011BC39 /* ESPGuideCode.m */; };
+		C8819A451F04CFBD0011BC39 /* ESPTouchGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = C8819A1F1F04CFBD0011BC39 /* ESPTouchGenerator.m */; };
+		C8819A461F04CFBD0011BC39 /* ESPTouchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = C8819A221F04CFBD0011BC39 /* ESPTouchResult.m */; };
+		C8819A471F04CFBD0011BC39 /* ESPTouchTask.m in Sources */ = {isa = PBXBuildFile; fileRef = C8819A241F04CFBD0011BC39 /* ESPTouchTask.m */; };
+		C8819A481F04CFBD0011BC39 /* ESPTouchTaskParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = C8819A261F04CFBD0011BC39 /* ESPTouchTaskParameter.m */; };
+		C8819A491F04CFBD0011BC39 /* ESPUDPSocketClient.m in Sources */ = {isa = PBXBuildFile; fileRef = C8819A2B1F04CFBD0011BC39 /* ESPUDPSocketClient.m */; };
+		C8819A4A1F04CFBD0011BC39 /* ESPUDPSocketServer.m in Sources */ = {isa = PBXBuildFile; fileRef = C8819A2D1F04CFBD0011BC39 /* ESPUDPSocketServer.m */; };
+		C8819A4B1F04CFBD0011BC39 /* ESP_ByteUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = C8819A301F04CFBD0011BC39 /* ESP_ByteUtil.m */; };
+		C8819A4C1F04CFBD0011BC39 /* ESP_CRC8.m in Sources */ = {isa = PBXBuildFile; fileRef = C8819A321F04CFBD0011BC39 /* ESP_CRC8.m */; };
+		C8819A4D1F04CFBD0011BC39 /* ESP_NetUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = C8819A341F04CFBD0011BC39 /* ESP_NetUtil.m */; };
+		C8819A4E1F04CFBD0011BC39 /* ESP_WifiUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = C8819A361F04CFBD0011BC39 /* ESP_WifiUtil.m */; };
+		C8819A4F1F04CFBD0011BC39 /* ESPBssidUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = C8819A381F04CFBD0011BC39 /* ESPBssidUtil.m */; };
+		C8819A501F04CFBD0011BC39 /* ESPDeviceType.m in Sources */ = {isa = PBXBuildFile; fileRef = C8819A3A1F04CFBD0011BC39 /* ESPDeviceType.m */; };
+		C8819A511F04CFBD0011BC39 /* ESPIOTAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = C8819A3C1F04CFBD0011BC39 /* ESPIOTAddress.m */; };
+		C8819A521F04CFBD0011BC39 /* ESPUDPBroadcastUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = C8819A3E1F04CFBD0011BC39 /* ESPUDPBroadcastUtil.m */; };
+		C8819A531F04CFBD0011BC39 /* ESPUDPDataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C8819A401F04CFBD0011BC39 /* ESPUDPDataParser.m */; };
+		C8819A561F04CFE50011BC39 /* ESP_SmartConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = C8819A551F04CFE50011BC39 /* ESP_SmartConfig.m */; };
+		C8819A591F04D1D10011BC39 /* FetchNetInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C8819A581F04D1D10011BC39 /* FetchNetInfo.m */; };
+		C8819A5C1F04D21F0011BC39 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C8819A5B1F04D21F0011BC39 /* AFNetworkReachabilityManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C88199FC1F04CFA10011BC39 /* ADSSmartConfig.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADSSmartConfig.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8819A001F04CFA10011BC39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C8819A021F04CFA10011BC39 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C8819A031F04CFA10011BC39 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C8819A051F04CFA10011BC39 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C8819A061F04CFA10011BC39 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C8819A091F04CFA10011BC39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C8819A0B1F04CFA10011BC39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C8819A0E1F04CFA10011BC39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C8819A101F04CFA10011BC39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8819A181F04CFBD0011BC39 /* ESPDataCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPDataCode.h; sourceTree = "<group>"; };
+		C8819A191F04CFBD0011BC39 /* ESPDataCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPDataCode.m; sourceTree = "<group>"; };
+		C8819A1A1F04CFBD0011BC39 /* ESPDatumCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPDatumCode.h; sourceTree = "<group>"; };
+		C8819A1B1F04CFBD0011BC39 /* ESPDatumCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPDatumCode.m; sourceTree = "<group>"; };
+		C8819A1C1F04CFBD0011BC39 /* ESPGuideCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPGuideCode.h; sourceTree = "<group>"; };
+		C8819A1D1F04CFBD0011BC39 /* ESPGuideCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPGuideCode.m; sourceTree = "<group>"; };
+		C8819A1E1F04CFBD0011BC39 /* ESPTouchGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPTouchGenerator.h; sourceTree = "<group>"; };
+		C8819A1F1F04CFBD0011BC39 /* ESPTouchGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPTouchGenerator.m; sourceTree = "<group>"; };
+		C8819A211F04CFBD0011BC39 /* ESPTouchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPTouchResult.h; sourceTree = "<group>"; };
+		C8819A221F04CFBD0011BC39 /* ESPTouchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPTouchResult.m; sourceTree = "<group>"; };
+		C8819A231F04CFBD0011BC39 /* ESPTouchTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPTouchTask.h; sourceTree = "<group>"; };
+		C8819A241F04CFBD0011BC39 /* ESPTouchTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPTouchTask.m; sourceTree = "<group>"; };
+		C8819A251F04CFBD0011BC39 /* ESPTouchTaskParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPTouchTaskParameter.h; sourceTree = "<group>"; };
+		C8819A261F04CFBD0011BC39 /* ESPTouchTaskParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPTouchTaskParameter.m; sourceTree = "<group>"; };
+		C8819A281F04CFBD0011BC39 /* ESPTouchDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPTouchDelegate.h; sourceTree = "<group>"; };
+		C8819A2A1F04CFBD0011BC39 /* ESPUDPSocketClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPUDPSocketClient.h; sourceTree = "<group>"; };
+		C8819A2B1F04CFBD0011BC39 /* ESPUDPSocketClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPUDPSocketClient.m; sourceTree = "<group>"; };
+		C8819A2C1F04CFBD0011BC39 /* ESPUDPSocketServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPUDPSocketServer.h; sourceTree = "<group>"; };
+		C8819A2D1F04CFBD0011BC39 /* ESPUDPSocketServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPUDPSocketServer.m; sourceTree = "<group>"; };
+		C8819A2F1F04CFBD0011BC39 /* ESP_ByteUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESP_ByteUtil.h; sourceTree = "<group>"; };
+		C8819A301F04CFBD0011BC39 /* ESP_ByteUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESP_ByteUtil.m; sourceTree = "<group>"; };
+		C8819A311F04CFBD0011BC39 /* ESP_CRC8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESP_CRC8.h; sourceTree = "<group>"; };
+		C8819A321F04CFBD0011BC39 /* ESP_CRC8.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESP_CRC8.m; sourceTree = "<group>"; };
+		C8819A331F04CFBD0011BC39 /* ESP_NetUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESP_NetUtil.h; sourceTree = "<group>"; };
+		C8819A341F04CFBD0011BC39 /* ESP_NetUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESP_NetUtil.m; sourceTree = "<group>"; };
+		C8819A351F04CFBD0011BC39 /* ESP_WifiUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESP_WifiUtil.h; sourceTree = "<group>"; };
+		C8819A361F04CFBD0011BC39 /* ESP_WifiUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESP_WifiUtil.m; sourceTree = "<group>"; };
+		C8819A371F04CFBD0011BC39 /* ESPBssidUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPBssidUtil.h; sourceTree = "<group>"; };
+		C8819A381F04CFBD0011BC39 /* ESPBssidUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPBssidUtil.m; sourceTree = "<group>"; };
+		C8819A391F04CFBD0011BC39 /* ESPDeviceType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPDeviceType.h; sourceTree = "<group>"; };
+		C8819A3A1F04CFBD0011BC39 /* ESPDeviceType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPDeviceType.m; sourceTree = "<group>"; };
+		C8819A3B1F04CFBD0011BC39 /* ESPIOTAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPIOTAddress.h; sourceTree = "<group>"; };
+		C8819A3C1F04CFBD0011BC39 /* ESPIOTAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPIOTAddress.m; sourceTree = "<group>"; };
+		C8819A3D1F04CFBD0011BC39 /* ESPUDPBroadcastUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPUDPBroadcastUtil.h; sourceTree = "<group>"; };
+		C8819A3E1F04CFBD0011BC39 /* ESPUDPBroadcastUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPUDPBroadcastUtil.m; sourceTree = "<group>"; };
+		C8819A3F1F04CFBD0011BC39 /* ESPUDPDataParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPUDPDataParser.h; sourceTree = "<group>"; };
+		C8819A401F04CFBD0011BC39 /* ESPUDPDataParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPUDPDataParser.m; sourceTree = "<group>"; };
+		C8819A411F04CFBD0011BC39 /* ESPVersionMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPVersionMacro.h; sourceTree = "<group>"; };
+		C8819A541F04CFE50011BC39 /* ESP_SmartConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESP_SmartConfig.h; sourceTree = "<group>"; };
+		C8819A551F04CFE50011BC39 /* ESP_SmartConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESP_SmartConfig.m; sourceTree = "<group>"; };
+		C8819A571F04D1D10011BC39 /* FetchNetInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FetchNetInfo.h; sourceTree = "<group>"; };
+		C8819A581F04D1D10011BC39 /* FetchNetInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FetchNetInfo.m; sourceTree = "<group>"; };
+		C8819A5A1F04D21F0011BC39 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		C8819A5B1F04D21F0011BC39 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C88199F91F04CFA10011BC39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C88199F31F04CFA10011BC39 = {
+			isa = PBXGroup;
+			children = (
+				C88199FE1F04CFA10011BC39 /* ADSSmartConfig */,
+				C88199FD1F04CFA10011BC39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C88199FD1F04CFA10011BC39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C88199FC1F04CFA10011BC39 /* ADSSmartConfig.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C88199FE1F04CFA10011BC39 /* ADSSmartConfig */ = {
+			isa = PBXGroup;
+			children = (
+				C8819A161F04CFBD0011BC39 /* ESP_File */,
+				C8819A021F04CFA10011BC39 /* AppDelegate.h */,
+				C8819A031F04CFA10011BC39 /* AppDelegate.m */,
+				C8819A051F04CFA10011BC39 /* ViewController.h */,
+				C8819A061F04CFA10011BC39 /* ViewController.m */,
+				C8819A081F04CFA10011BC39 /* Main.storyboard */,
+				C8819A0B1F04CFA10011BC39 /* Assets.xcassets */,
+				C8819A0D1F04CFA10011BC39 /* LaunchScreen.storyboard */,
+				C8819A101F04CFA10011BC39 /* Info.plist */,
+				C88199FF1F04CFA10011BC39 /* Supporting Files */,
+			);
+			path = ADSSmartConfig;
+			sourceTree = "<group>";
+		};
+		C88199FF1F04CFA10011BC39 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8819A001F04CFA10011BC39 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C8819A161F04CFBD0011BC39 /* ESP_File */ = {
+			isa = PBXGroup;
+			children = (
+				C8819A5A1F04D21F0011BC39 /* AFNetworkReachabilityManager.h */,
+				C8819A5B1F04D21F0011BC39 /* AFNetworkReachabilityManager.m */,
+				C8819A571F04D1D10011BC39 /* FetchNetInfo.h */,
+				C8819A581F04D1D10011BC39 /* FetchNetInfo.m */,
+				C8819A541F04CFE50011BC39 /* ESP_SmartConfig.h */,
+				C8819A551F04CFE50011BC39 /* ESP_SmartConfig.m */,
+				C8819A171F04CFBD0011BC39 /* ESP_Protocol */,
+				C8819A201F04CFBD0011BC39 /* ESP_Task */,
+				C8819A271F04CFBD0011BC39 /* ESP_Touch */,
+				C8819A291F04CFBD0011BC39 /* ESP_Udp */,
+				C8819A2E1F04CFBD0011BC39 /* ESP_Util */,
+			);
+			path = ESP_File;
+			sourceTree = "<group>";
+		};
+		C8819A171F04CFBD0011BC39 /* ESP_Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				C8819A181F04CFBD0011BC39 /* ESPDataCode.h */,
+				C8819A191F04CFBD0011BC39 /* ESPDataCode.m */,
+				C8819A1A1F04CFBD0011BC39 /* ESPDatumCode.h */,
+				C8819A1B1F04CFBD0011BC39 /* ESPDatumCode.m */,
+				C8819A1C1F04CFBD0011BC39 /* ESPGuideCode.h */,
+				C8819A1D1F04CFBD0011BC39 /* ESPGuideCode.m */,
+				C8819A1E1F04CFBD0011BC39 /* ESPTouchGenerator.h */,
+				C8819A1F1F04CFBD0011BC39 /* ESPTouchGenerator.m */,
+			);
+			path = ESP_Protocol;
+			sourceTree = "<group>";
+		};
+		C8819A201F04CFBD0011BC39 /* ESP_Task */ = {
+			isa = PBXGroup;
+			children = (
+				C8819A211F04CFBD0011BC39 /* ESPTouchResult.h */,
+				C8819A221F04CFBD0011BC39 /* ESPTouchResult.m */,
+				C8819A231F04CFBD0011BC39 /* ESPTouchTask.h */,
+				C8819A241F04CFBD0011BC39 /* ESPTouchTask.m */,
+				C8819A251F04CFBD0011BC39 /* ESPTouchTaskParameter.h */,
+				C8819A261F04CFBD0011BC39 /* ESPTouchTaskParameter.m */,
+			);
+			path = ESP_Task;
+			sourceTree = "<group>";
+		};
+		C8819A271F04CFBD0011BC39 /* ESP_Touch */ = {
+			isa = PBXGroup;
+			children = (
+				C8819A281F04CFBD0011BC39 /* ESPTouchDelegate.h */,
+			);
+			path = ESP_Touch;
+			sourceTree = "<group>";
+		};
+		C8819A291F04CFBD0011BC39 /* ESP_Udp */ = {
+			isa = PBXGroup;
+			children = (
+				C8819A2A1F04CFBD0011BC39 /* ESPUDPSocketClient.h */,
+				C8819A2B1F04CFBD0011BC39 /* ESPUDPSocketClient.m */,
+				C8819A2C1F04CFBD0011BC39 /* ESPUDPSocketServer.h */,
+				C8819A2D1F04CFBD0011BC39 /* ESPUDPSocketServer.m */,
+			);
+			path = ESP_Udp;
+			sourceTree = "<group>";
+		};
+		C8819A2E1F04CFBD0011BC39 /* ESP_Util */ = {
+			isa = PBXGroup;
+			children = (
+				C8819A2F1F04CFBD0011BC39 /* ESP_ByteUtil.h */,
+				C8819A301F04CFBD0011BC39 /* ESP_ByteUtil.m */,
+				C8819A311F04CFBD0011BC39 /* ESP_CRC8.h */,
+				C8819A321F04CFBD0011BC39 /* ESP_CRC8.m */,
+				C8819A331F04CFBD0011BC39 /* ESP_NetUtil.h */,
+				C8819A341F04CFBD0011BC39 /* ESP_NetUtil.m */,
+				C8819A351F04CFBD0011BC39 /* ESP_WifiUtil.h */,
+				C8819A361F04CFBD0011BC39 /* ESP_WifiUtil.m */,
+				C8819A371F04CFBD0011BC39 /* ESPBssidUtil.h */,
+				C8819A381F04CFBD0011BC39 /* ESPBssidUtil.m */,
+				C8819A391F04CFBD0011BC39 /* ESPDeviceType.h */,
+				C8819A3A1F04CFBD0011BC39 /* ESPDeviceType.m */,
+				C8819A3B1F04CFBD0011BC39 /* ESPIOTAddress.h */,
+				C8819A3C1F04CFBD0011BC39 /* ESPIOTAddress.m */,
+				C8819A3D1F04CFBD0011BC39 /* ESPUDPBroadcastUtil.h */,
+				C8819A3E1F04CFBD0011BC39 /* ESPUDPBroadcastUtil.m */,
+				C8819A3F1F04CFBD0011BC39 /* ESPUDPDataParser.h */,
+				C8819A401F04CFBD0011BC39 /* ESPUDPDataParser.m */,
+				C8819A411F04CFBD0011BC39 /* ESPVersionMacro.h */,
+			);
+			path = ESP_Util;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C88199FB1F04CFA10011BC39 /* ADSSmartConfig */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8819A131F04CFA10011BC39 /* Build configuration list for PBXNativeTarget "ADSSmartConfig" */;
+			buildPhases = (
+				C88199F81F04CFA10011BC39 /* Sources */,
+				C88199F91F04CFA10011BC39 /* Frameworks */,
+				C88199FA1F04CFA10011BC39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ADSSmartConfig;
+			productName = ADSSmartConfig;
+			productReference = C88199FC1F04CFA10011BC39 /* ADSSmartConfig.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C88199F41F04CFA10011BC39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Adsmart;
+				TargetAttributes = {
+					C88199FB1F04CFA10011BC39 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = MLX5XG6JS5;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C88199F71F04CFA10011BC39 /* Build configuration list for PBXProject "ADSSmartConfig" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C88199F31F04CFA10011BC39;
+			productRefGroup = C88199FD1F04CFA10011BC39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C88199FB1F04CFA10011BC39 /* ADSSmartConfig */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C88199FA1F04CFA10011BC39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8819A0F1F04CFA10011BC39 /* LaunchScreen.storyboard in Resources */,
+				C8819A0C1F04CFA10011BC39 /* Assets.xcassets in Resources */,
+				C8819A0A1F04CFA10011BC39 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C88199F81F04CFA10011BC39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8819A531F04CFBD0011BC39 /* ESPUDPDataParser.m in Sources */,
+				C8819A4C1F04CFBD0011BC39 /* ESP_CRC8.m in Sources */,
+				C8819A471F04CFBD0011BC39 /* ESPTouchTask.m in Sources */,
+				C8819A071F04CFA10011BC39 /* ViewController.m in Sources */,
+				C8819A591F04D1D10011BC39 /* FetchNetInfo.m in Sources */,
+				C8819A4D1F04CFBD0011BC39 /* ESP_NetUtil.m in Sources */,
+				C8819A491F04CFBD0011BC39 /* ESPUDPSocketClient.m in Sources */,
+				C8819A421F04CFBD0011BC39 /* ESPDataCode.m in Sources */,
+				C8819A521F04CFBD0011BC39 /* ESPUDPBroadcastUtil.m in Sources */,
+				C8819A501F04CFBD0011BC39 /* ESPDeviceType.m in Sources */,
+				C8819A4B1F04CFBD0011BC39 /* ESP_ByteUtil.m in Sources */,
+				C8819A4F1F04CFBD0011BC39 /* ESPBssidUtil.m in Sources */,
+				C8819A481F04CFBD0011BC39 /* ESPTouchTaskParameter.m in Sources */,
+				C8819A441F04CFBD0011BC39 /* ESPGuideCode.m in Sources */,
+				C8819A041F04CFA10011BC39 /* AppDelegate.m in Sources */,
+				C8819A431F04CFBD0011BC39 /* ESPDatumCode.m in Sources */,
+				C8819A4A1F04CFBD0011BC39 /* ESPUDPSocketServer.m in Sources */,
+				C8819A461F04CFBD0011BC39 /* ESPTouchResult.m in Sources */,
+				C8819A4E1F04CFBD0011BC39 /* ESP_WifiUtil.m in Sources */,
+				C8819A511F04CFBD0011BC39 /* ESPIOTAddress.m in Sources */,
+				C8819A011F04CFA10011BC39 /* main.m in Sources */,
+				C8819A561F04CFE50011BC39 /* ESP_SmartConfig.m in Sources */,
+				C8819A5C1F04D21F0011BC39 /* AFNetworkReachabilityManager.m in Sources */,
+				C8819A451F04CFBD0011BC39 /* ESPTouchGenerator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C8819A081F04CFA10011BC39 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8819A091F04CFA10011BC39 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C8819A0D1F04CFA10011BC39 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8819A0E1F04CFA10011BC39 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C8819A111F04CFA10011BC39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C8819A121F04CFA10011BC39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C8819A141F04CFA10011BC39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MLX5XG6JS5;
+				INFOPLIST_FILE = ADSSmartConfig/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adsmart.ADSSmartConfig;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C8819A151F04CFA10011BC39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MLX5XG6JS5;
+				INFOPLIST_FILE = ADSSmartConfig/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adsmart.ADSSmartConfig;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C88199F71F04CFA10011BC39 /* Build configuration list for PBXProject "ADSSmartConfig" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8819A111F04CFA10011BC39 /* Debug */,
+				C8819A121F04CFA10011BC39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8819A131F04CFA10011BC39 /* Build configuration list for PBXNativeTarget "ADSSmartConfig" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8819A141F04CFA10011BC39 /* Debug */,
+				C8819A151F04CFA10011BC39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C88199F41F04CFA10011BC39 /* Project object */;
+}
