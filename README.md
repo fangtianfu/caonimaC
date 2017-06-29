@@ -1,0 +1,2 @@
+# caonimaC
+wifi smartConfig
