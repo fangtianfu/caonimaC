@@ -10,6 +10,8 @@
 
 static NSString *kChangeFetchNetInfoNotification = @"XYChangeFetchNetInfoNotification";
 
+static NSString *kChangeNetworkStateNotification = @"XYChangeNetworkStateNotification";
+
 static NSString *kConfirmFetchNetInfoNotification = @"XYConfirmFetchNetInfoNotification";
 
 @interface FetchNetInfo : NSObject

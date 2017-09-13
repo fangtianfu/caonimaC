@@ -63,6 +63,9 @@ static BOOL flag = YES;
             
             [weakSelf doApplicationDidBecomeActiveNotification];
             
+            // 网络状态发送了改变
+            [[NSNotificationCenter defaultCenter] postNotificationName:kChangeNetworkStateNotification object:nil];
+            
             // 开机的第一次不需要进去
             if (flag) {
                 flag = NO;
